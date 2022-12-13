@@ -19,6 +19,8 @@ public class DepositCalculator {
     void calcInvestmentResult() {
         double resultDepositAmount = 0;
 
+        
+
         Scanner scanner = new Scanner(System.in);
 
 
