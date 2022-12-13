@@ -17,9 +17,9 @@ public class DepositCalculator {
     }
 
     void calcInvestmentResult() {
-        double resultDepositAmount = 0;
+        double resultDepositAmount = 0; //Переменную лучше объявлять ближе к области её использования
 
-        
+        //лишние переносы
 
         Scanner scanner = new Scanner(System.in);
 
