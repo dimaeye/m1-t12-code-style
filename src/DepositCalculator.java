@@ -17,7 +17,8 @@ public class DepositCalculator {
 
     void calculateProfit() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите сумму вклада в рублях:"); //перед этим блоком лучше вставить пустую строку
+
+        System.out.println("Введите сумму вклада в рублях:");
         int amount = scanner.nextInt();
 
         System.out.println("Введите срок вклада в годах:");
@@ -37,9 +38,6 @@ public class DepositCalculator {
     }
 
     public static void main(String[] args) {
-        new DepositCalculator()
-                .calculateProfit(); //лишний перенос
+        new DepositCalculator().calculateProfit();
     }
-//лишние пустые строки
-
 }
